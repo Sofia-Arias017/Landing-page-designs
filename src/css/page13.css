@@ -1,0 +1,124 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Times";
+}
+
+.header h1{
+    font-size: 108px;
+    line-height: 1;
+}
+
+.header p {
+    line-height: 1.25;
+    font-family: "Times";
+    font-size: 26px;
+}
+button{
+    background-color: #252525;
+    color: white;  
+    width: 9.3vw;
+    height: 3vw; 
+    border-radius: 10vw;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: "Poppins";
+}
+
+.conteiner{
+    position: absolute;
+}
+
+.uno{
+    position: absolute;
+    bottom: 525px;
+    width: 450px;
+    left: 100px;
+}
+
+.uno h2{
+    font-size: 40px;
+    color: #26262673;
+}
+
+.uno p{
+    font-size: 24px;
+    color: #262626b9;
+}
+
+.dos h2{
+    font-size: 40px;
+    color: #26262673;
+}
+
+.dos p{
+    font-size: 24px;
+    color: #262626b9;
+}
+
+.dos{
+    position: absolute;
+    top: -30px;
+    left: 1400px;
+    width: 450px;
+}
+
+.fondo{
+    position: absolute;
+    top: -200px;
+    left: 475px;
+    width: 50%;
+    z-index: -1;
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    z-index: -2;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    z-index: -2;
+}
+
+.star1{
+    position: absolute;
+    bottom: 150px;
+    right: 200px;
+    z-index: 1;
+}
+
+.star2{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    z-index: 1;
+}
+
+.explosion{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 1;
+}
+
+.party {
+    position: absolute;
+    bottom: 125px;
+    right: 100px;
+    z-index: 1;
+}
