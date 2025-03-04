@@ -16,3 +16,54 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.uno{
+    padding-left: 50px;
+}
+
+.uno h1{
+    font-size: 85px;
+    font-family: "avenir-heavy";
+    margin-right: 150px;
+}
+
+
+.img1 h1{
+    font-size: 45px;
+    font-family: "avenir-heavy";
+    color: #bdbdbd;
+}
+
+.img1 p{
+    font-size: 25px;
+    font-family: "avenir-roman";
+    color: #2e2e2e;
+    margin-bottom: 25px;
+}
+
+.img2 h1{
+    font-size: 45px;
+    font-family: "avenir-heavy";
+    color: #bdbdbd;
+    
+}
+
+.img2 p{
+    font-size: 25px;
+    font-family: "avenir-roman";
+    color: #2e2e2e;
+    margin-bottom: 25px;
+}
+
+.img3 h1{
+    font-size: 45px;
+    font-family: "avenir-heavy";
+    color: #bdbdbd;
+}
+
+.img3 p{
+    font-size: 25px;
+    font-family: "avenir-roman";
+    color: #2e2e2e;
+    margin-bottom: 25px;
+}
