@@ -26,3 +26,26 @@
 }
 
 
+.conteiner{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 2%;
+    gap: 5px;
+}
+.conteiner img{
+    width:23%;  
+    
+}
+
+button{
+    background-color: #252525;
+    color: white;  
+    width: 9.3vw;
+    height: 3vw; 
+    border-radius: 1vw;
+    font-weight: normal;
+}
