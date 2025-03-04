@@ -42,3 +42,30 @@ html{
     border: none;
     margin-right: 20px;
 }
+.uno{
+    color: #FEC3C7;
+}
+
+.dos{
+    color: #9AD7F3;
+}
+
+.tres{
+    color: #6BDFDA;
+}
+
+.image-galery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.image-galery img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    background-color: #2F2F2F;
+}
