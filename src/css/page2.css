@@ -106,3 +106,12 @@ body{
     width: 27vw;
     
 }
+
+button{
+    background-color: #252525;
+    color: white;  
+    width: 9.3vw;
+    height: 2.4vw; 
+    border-radius: 1vw;
+    font-weight: normal;
+}
