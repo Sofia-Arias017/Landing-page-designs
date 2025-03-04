@@ -1,0 +1,38 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 50px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.uno{
+    padding-left: 50px;
+}
+
+.uno h1{
+    font-size: 85px;
+    font-family: "avenir-heavy";
+    margin-right: 150px;
+}
+
+.uno h2{
+    font-size: 45px;
+    font-family: "avenir-heavy";
+    color: #838282;
+}
+
+.uno p{
+    font-size: 20px;
+    font-family: "avenir-roman";
+    color: #575656;
+}
