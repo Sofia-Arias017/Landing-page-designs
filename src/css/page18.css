@@ -1,0 +1,105 @@
+@import url(variables.css);
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 40px;
+}
+
+header {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 55px;
+    color: #222;
+}
+
+p {
+    color: #666;
+    margin: 10px 0;
+    font-size: 23px;
+}
+
+hr {
+    border: 3px solid black;
+    padding-right: 50px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Avenir";
+}
+
+.info-cards img{
+    width: 45%;
+    }
+
+.card {
+    text-align: center;
+    padding: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #222;
+}
+
+/* Galería de imágenes */
+.gallery {
+    position: absolute;
+    top: 500px;
+    left: 370px;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    max-width: 2300px;
+    margin: 20px auto;
+}
+
+.sub-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.shape1{
+    position: absolute;
+    bottom: 550px;
+    right: 350px;
+}
+
+.shape2{
+    position: absolute;
+    bottom: 555px;
+    left: 350px;
+}
+
+.right1{
+    position: absolute;
+    bottom: 10px;
+    right: 300px;
+}
+
+.right2{
+    position: absolute;
+    bottom: 400px;
+    left: 10px;
+}
+
