@@ -70,3 +70,17 @@ body{
     
   
 }
+
+.dos img{
+    width: 27vw;
+    height: 57vh;
+}
+.tres img{
+    width: 27vw;
+    height: 60vh;
+}
+
+.cuatro img, .cinco img, .seis img{
+    width: 27vw;
+    
+}
