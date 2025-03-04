@@ -11,3 +11,12 @@
     font-family: "avenir-roman";
     src: url(/storage/fonts/Avenir-Roman.ttf);
 }
+@font-face {
+    font-family: "work-sans";
+    src: url(/storage/fonts/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "work-sans-bold";
+    src: url(/storage/fonts/WorkSans-Light.ttf);
+}
