@@ -1,0 +1,60 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins-bold";
+    padding: 0;
+    padding-left: 320px;
+    margin-top: 100px;
+}
+
+.header h1{
+    font-size: 74px;
+    color: #2C1001;
+}
+
+.header p{
+    font-size: 24px;
+    font-family: "Poppins";
+    color: #2C1001;
+}
+
+
+.img1{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    z-index: 0;
+}
+
+.card{
+    position: absolute;
+    right: 300px;
+    bottom: 60px;
+    z-index: 1;
+}
+
+
+.list{
+    position: absolute;
+    left: 330px;
+    bottom: 60px;
+}
+
+
+
+button{
+    background-color: #FFDE81;
+    color: #2C1001;  
+    width: 9.3vw;
+    height: 3vw; 
+    border-radius: 10vw;
+    font-weight: normal;
+    font-size: 20px;
+    border: none;
+}
