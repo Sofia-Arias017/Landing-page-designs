@@ -26,3 +26,42 @@
     font-family: "work-sans";
     color: #1f1f1f;
 }
+.buttons{
+    margin-top: 30px;
+    display: flex;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "work-sans";
+    font-size: 30px;
+    background-color: black;
+    width: 260px;
+    height: 80px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "work-sans";
+    font-size: 30px;
+    background-color: white;
+    width: 260px;
+    height: 80px;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-color: black;
+}
+
+.img-group{
+    position: absolute;
+    right: 300px;
+}
