@@ -1,0 +1,44 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #9C2004;
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+    padding-left: 100px;
+}
+
+.texto1 {
+    color: white;
+    margin-left: 200px;
+    font-size: 50px;
+    font-family: "work-sans";
+}
+
+.texto1 p{
+    color: white;
+    font-size: 30px;
+    font-family: "work-sans-bold";
+}
+
+.button1{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "work-sans";
+    font-size: 40px;
+    background-color: #E5B94B;
+    width: 290px;
+    height: 100px;
+    border-radius: 45px;
+    border: none;
+    margin-right: 20px;
+}
