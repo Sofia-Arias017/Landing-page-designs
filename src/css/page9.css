@@ -1,0 +1,31 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: rgb(200,204,207);
+    background: linear-gradient(90deg, rgba(200,204,207,1) 0%, rgba(151,163,163,1) 100%);
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+    padding-left: 300px;;
+}
+
+.texto1 {
+    color: #363830;
+    margin-left: 200px;
+    font-size: 56px;
+    font-family: "Poppins-bold";
+}
+
+.texto1 p{
+    color: #363830;
+    font-size: 30px;
+    font-family: "Poppins";
+}
