@@ -20,3 +20,12 @@
     font-family: "work-sans-bold";
     src: url(/storage/fonts/WorkSans-Light.ttf);
 }
+@font-face {
+    font-family: "Poppins";
+    src: url(/storage/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-bold";
+    src: url(/storage/fonts/Poppins-Bold.ttf);
+}
