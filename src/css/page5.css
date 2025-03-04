@@ -1,0 +1,90 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 50px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.uno{
+    padding-left: 50px;
+}
+
+.uno h1{
+    font-size: 85px;
+    font-family: "avenir-heavy";
+    margin-right: 150px;
+}
+
+.uno h2{
+    font-size: 45px;
+    font-family: "avenir-heavy";
+    color: #838282;
+}
+
+.uno p{
+    font-size: 20px;
+    font-family: "avenir-roman";
+    color: #575656;
+}
+.img1{
+    grid-column: 1;
+
+}
+
+.img1 h1{
+    font-size: 45px;
+    font-family: "avenir-heavy";
+    color: #838282;
+}
+
+.img1 p{
+    font-size: 25px;
+    font-family: "avenir-roman";
+    color: #2e2e2e;
+    margin-bottom: 25px;
+}
+
+.img2 h1{
+    font-size: 45px;
+    font-family: "avenir-heavy";
+    color: #838282;
+    
+}
+
+.img2 p{
+    font-size: 25px;
+    font-family: "avenir-roman";
+    color: #2e2e2e;
+    margin-bottom: 25px;
+}
+
+.img3 h1{
+    font-size: 45px;
+    font-family: "avenir-heavy";
+    color: #838282;
+}
+
+.img3 p{
+    font-size: 25px;
+    font-family: "avenir-roman";
+    color: #2e2e2e;
+    margin-bottom: 25px;
+}
+
+.img2{
+    grid-column: 2;
+}
+
+.img3{
+    grid-column: 3;
+}
