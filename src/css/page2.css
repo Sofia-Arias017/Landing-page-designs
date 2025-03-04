@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    padding: 64px;
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 70vh 55vh;
+    gap: 20px;
+    row-gap: 5vw;
+    width: 92vw;
+}
