@@ -1,0 +1,28 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+}
+
+.uno{
+    padding-left: 50px;
+}
+
+.uno h1{
+    font-size: 85px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 150px;
+}
+
+.uno p{
+    font-size: 27px;
+    font-family: "work-sans";
+    color: #1f1f1f;
+}
