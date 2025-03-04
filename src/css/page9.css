@@ -1,0 +1,64 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: rgb(200,204,207);
+    background: linear-gradient(90deg, rgba(200,204,207,1) 0%, rgba(151,163,163,1) 100%);
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+    padding-left: 300px;;
+}
+
+.texto1 {
+    color: #363830;
+    margin-left: 200px;
+    font-size: 56px;
+    font-family: "Poppins-bold";
+}
+
+.texto1 p{
+    color: #363830;
+    font-size: 30px;
+    font-family: "Poppins";
+}
+.button1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Poppins";
+    font-size: 25px;
+    background-color: #363830;
+    width: 200px;
+    height: 75px;
+    border-radius: 45px;
+    border: none;
+    margin-right: 20px;
+}
+
+.right{
+    position: absolute;
+    right: 70px;
+    z-index: -1;
+}
+.left{
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    z-index: -1;
+}
+.list{
+    position: absolute;
+    z-index: -1;
+    bottom: 40px;
+    left: 500px;
+}
