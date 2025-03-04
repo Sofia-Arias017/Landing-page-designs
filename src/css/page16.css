@@ -1,0 +1,36 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #061017, #04303D);
+    height: 100vh;
+    margin: 0;
+}
+
+.img1{
+    position: absolute;
+    right: 0;
+}
+
+.img2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.img3{
+    position: absolute;
+    right: 652px;
+    top: 195px;
+}
+
+.img4{
+    position: absolute;
+    margin-left: 684px;
+    top: 792px;
+}
