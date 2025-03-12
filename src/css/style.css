@@ -4,4 +4,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+.text{
+    position: relative;
+    justify-self: center;
+    margin-top: 50px;
+}
 
+.text a{
+    text-decoration: none;
+    color: crimson;
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text div{
+    padding-bottom: 50px;
+}
