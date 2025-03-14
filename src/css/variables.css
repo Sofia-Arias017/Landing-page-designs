@@ -4,28 +4,28 @@
 }
 @font-face {
     font-family: "avenir-heavy";
-    src: url(/storage/fonts/Avenir\ Heavy.ttf);
+    src: url(../../storage/fonts/Avenir\ Heavy.ttf);
 }
 
 @font-face {
     font-family: "avenir-roman";
-    src: url(/storage/fonts/Avenir-Roman.ttf);
+    src: url(../../storage/fonts/Avenir-Roman.ttf);
 }
 @font-face {
     font-family: "work-sans";
-    src: url(/storage/fonts/WorkSans-Medium.ttf);
+    src: url(../../storage/fonts/WorkSans-Medium.ttf);
 }
 
 @font-face {
     font-family: "work-sans-bold";
-    src: url(/storage/fonts/WorkSans-Light.ttf);
+    src: url(../../storage/fonts/WorkSans-Light.ttf);
 }
 @font-face {
     font-family: "Poppins";
-    src: url(/storage/fonts/Poppins-Regular.ttf);
+    src: url(../../storage/fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
     font-family: "Poppins-bold";
-    src: url(/storage/fonts/Poppins-Bold.ttf);
+    src: url(../../storage/fonts/Poppins-Bold.ttf);
 }
